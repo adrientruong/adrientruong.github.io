@@ -1,73 +1,58 @@
 body {
-	margin:0;
-	padding:0;
-	background-color:#359CD6;
+	background-color: #2980b9;
 	font-family:"Aleo", "Helvetica Neue Light", "Helvetica Neue", Arial;
-}
-
-.default-section {
-	padding-left:21%;
-}
-
-#top-header {
-	padding-top:40px;
-	background-color:#FFA335;
-	height:300px;
-	color:white;
-}
-
-#projectimages {
-	height:460px;
-	margin:0 auto;
-	width:800px;
-	padding:0px;
-}
-
-#projectimagescontainer {
-	margin:0;
-	padding-top:20px;
-	color:white;
-}
-
-.project-name-text {
-	text-align: center;
-	color:white;
-}
-
-.single-project-image-container {
-
-}
-
-.projectimage {
-	width:225px;
-	border-radius: 7px;
-}
-
-a {
 	color: white;
 }
 
 h1 {
-	font-size: 40px;
-	padding-bottom: 0px;
+	margin: 0;
+	font-size: 35px;
 }
 
 h2 {
-	font-size: 27px;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: normal;
 }
 
-h3 {
-	text-align:center;
-	font-size: 40px;
-	margin-top:0px;
+#container {
+	position: absolute;
+	width: 600px;
+	height: 570px;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
-ul {
-	margin:0;
-	padding:0;
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-li {
-	display:inline-block;
-	margin-right:20px;
+#profile-img {
+	margin-bottom: 50px;
+	border-radius: 55px;
+}
+
+.h-separator {
+	height: 1px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+#about {
+	font-weight: normal;
+}
+
+a:link {
+	color: #35E970;
+}
+
+a:visited {
+	color: #35E970;
 }
