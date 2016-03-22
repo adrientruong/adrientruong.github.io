@@ -26,10 +26,9 @@ p {
 }
 
 #container {
-	position: absolute;
 	width: 620px;
-	height: 537px;
-	margin: 50px auto 0 auto;
+	height: auto;
+	margin: 50px auto 20px auto;
 	top: 0;
 	left: 0;
 	right: 0;
